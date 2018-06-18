@@ -1,6 +1,5 @@
 var assert = require('assert');
 const Word = require('../src/word.js')
-console.log(Word);
 
 describe('Word', function() {
     it('should return all _ when no letters have not been guessed', function() {
