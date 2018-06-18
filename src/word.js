@@ -9,6 +9,6 @@ Word.prototype.toString = function () {
     return this.letters.map( l => l.toString()).join('')
 }
 Word.prototype.guess = function(ch) { for( l of this.letters) l.guess(ch) }
-Word.prototype.guessed = function() { this.word = this.toString() }
+Word.prototype.guessed = function() { return this.word == this.toString() }
 
 module.exports = Word;

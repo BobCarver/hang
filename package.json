@@ -20,5 +20,10 @@
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "sinon": "^6.0.0"
+  },
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "inquirer": "^6.0.0",
+    "keypress": "^0.2.1"
   }
 }
